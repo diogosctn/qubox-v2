@@ -1,0 +1,39 @@
+.pageControls {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        cursor: pointer;
+    }
+}
+
+.active,
+.page,
+.placeholder {
+    width: 2rem;
+    margin-right: 1.5rem;
+    font-size: 2rem;
+}
+
+.page {
+    transition: color 0.2s;
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+
+    &:hover {
+        color: var(--color-3);
+    }
+}
+
+.active {
+    color: var(--color-3);
+}

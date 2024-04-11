@@ -1,0 +1,81 @@
+/**
+    Change the markdown style to your needs.
+ */
+.markdown {
+    * {
+        line-height: 1.5;
+    }
+
+    a {
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: var(--color-2-dark);
+    }
+
+    p code {
+        padding: 0.2rem 0.5rem;
+        border-radius: 7px;
+        background-color: var(--color-2-darker);
+        font-family: monospace;
+        font-size: 2rem;
+        color: var(--color-1);
+    }
+
+    pre code {
+        padding: 2.5rem;
+        border-radius: var(--border-radius);
+        background-color: var(--color-1);
+        font-weight: 500;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5 {
+        margin: 2rem 0 1rem 0;
+    }
+
+    h3 {
+        font-size: 2.2rem;
+        color: var(--color-1);
+    }
+
+    p {
+        margin-bottom: 1rem;
+        font-size: 1.6rem;
+    }
+
+    ol,
+    ul {
+        padding-inline-start: 4rem;
+    }
+
+    li {
+        margin-bottom: 0.5rem;
+        list-style-type: circle;
+        font-size: 1.6rem;
+        color: var(--color-2-dark);
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    blockquote {
+        position: relative;
+        font-style: italic;
+        font-size: 1.6rem;
+
+        &:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -1.5rem;
+            width: 0.5rem;
+            height: 100%;
+            border-radius: 1rem;
+            background-color: var(--color-2-darker);
+        }
+    }
+}
