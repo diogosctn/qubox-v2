@@ -7,50 +7,44 @@
  * of the blog.
  */
 export default {
-    caasySDKConfig: {
-        siteId: '5f7cc20dc302c4fa0a961f8f'
-    },
-    blogName: 'myBlog',
-    defaultTitle: 'my personal tech blog',
-    description: 'This blog showcases how to use Caasy and its official JS SDK. Please visit our website for more information. Caasy is developed and maintained by Mosaic.',
+    blogName: 'Qubox',
+    defaultTitle: 'Simulador QuBOX - UFSC',
+    description: 'This blog showcases',
     // The default language is used to improve accessibility.
     // It is set on the HTML element. You can change this
     // to the main language of your content.
-    defaultLanguage: 'en',
-    // The locale is used for multi language content. This
-    // feature hasn't been released yet. Please don't change
-    // this until Caasy fully supports multi language content.
-    locale: 'en_US',
+    defaultLanguage: 'pt-br',
+    locale: 'pt_BR',
     social: {
-        github: 'https://github.com/jz222',
-        dev: 'https://dev.to/jz222',
-        twitter: 'https://twitter.com',
-        linkedin: 'https://www.linkedin.com/in/timo-zimmermann',
-        youtube: 'https://youtube.com',
-        facebook: 'https://facebook.com',
-        instagram: 'https://instagram.com'
+        github: '',
+        dev: '',
+        twitter: '',
+        linkedin: '',
+        youtube: '',
+        facebook: '',
+        instagram: ''
     },
     footer: {
         links: [
             {
                 title: 'Website',
                 items: [
-                    { label: 'Caasy', url: 'https://caasy.io' }
+                    { label: 'Website 1', url: '' }
                 ]
             },
             {
                 title: 'Developer',
                 items: [
-                    { label: 'Docs', url: 'https://docs.caasy.io' },
-                    { label: 'Github', url: 'https://logowl.io' },
-                    { label: 'JS SDK', url: 'https://mosaic.mc' }
+                    { label: 'Developer 1', url: '' },
+                    { label: 'Developer 2', url: '' },
+                    { label: 'Developer 3', url: '' }
                 ]
             },
             {
                 title: 'About',
                 items: [
-                    { label: 'Mosaic', url: 'https://mosaic.mc' },
-                    { label: 'Log Owl', url: 'https://logowl.io' }
+                    { label: 'About 1', url: '' },
+                    { label: 'About 2', url: '' }
                 ]
             }
         ]

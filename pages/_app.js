@@ -1,7 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
 import NProgress from 'nprogress';
-import caasy from '@caasy/sdk-js';
 import Router from 'next/router';
 
 // Blog config
@@ -11,10 +10,6 @@ import blogConfig from '../blogConfig';
 import '../stylesheets/global.css';
 import '../stylesheets/nprogress.css';
 import '../stylesheets/nightOwl.css';
-
-// Initialize the Caasy SDK. Update the Caasy
-// site ID in "blogConfig.js" in the root folder.
-caasy.init(blogConfig.caasySDKConfig);
 
 // Loading indicator
 Router.events.on('routeChangeStart', NProgress.start);

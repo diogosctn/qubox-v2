@@ -1,0 +1,98 @@
+{
+    "totalItems": 3,
+    "items": 3,
+    "page": 1,
+    "itemsPerPage": 25,
+    "data": [
+      {
+        "id": "5f11a482b37775863c3243a3",
+        "title": {
+            "pt_BR": "Titulo1"
+        },
+        "description": {
+            "pt_BR": "Descrição2"
+        },
+        "authorId": "5f05b66d985d5565e1826921",
+        "author": {
+            "id": "5f05b66d985d5565e1826921",
+            "firstName": "Nome",
+            "lastName": "Sobrenome"
+          },
+        "siteId": "5f05b799985d5565e1826922",
+        "previewImageName": "5f05b799985d5565e1826922-484EEEA10A-image.jpg",
+        "previewImageUrls": {
+            "medium":"5f05b799985d5565e1826922-484EEEA10A-image.jpg",
+            "large":"5f05b799985d5565e1826922-484EEEA10A-image.jpg"
+        },
+        "updatedById": "5f05b66d985d5565e1826921",
+        "updatedBy": {
+            "id": "5f05b66d985d5565e1826921",
+            "firstName": "Nome",
+            "lastName": "Sobrenome"
+          },
+        "isPublished": true,
+        "updatedAt": "2020-07-20T16:03:52.334Z",
+        "createdAt": "2020-07-17T13:15:46.248Z"
+      },
+      {
+        "id": "5f11a482b37775863c3243a3",
+        "title": {
+            "pt_BR": "Titulo2"
+        },
+        "description": {
+            "pt_BR": "Descrição2"
+        },
+        "authorId": "5f05b66d985d5565e1826921",
+        "author": {
+            "id": "5f05b66d985d5565e1826921",
+            "firstName": "Nome",
+            "lastName": "Sobrenome"
+          },
+        "siteId": "5f05b799985d5565e1826922",
+        "previewImageName": "5f05b799985d5565e1826922-484EEEA10A-image.jpg",
+        "previewImageUrls": {
+            "medium":"5f05b799985d5565e1826922-484EEEA10A-image.jpg",
+            "large":"5f05b799985d5565e1826922-484EEEA10A-image.jpg"
+        },
+        "updatedById": "5f05b66d985d5565e1826921",
+        "updatedBy": {
+            "id": "5f05b66d985d5565e1826921",
+            "firstName": "Nome",
+            "lastName": "Sobrenome"
+          },
+        "isPublished": true,
+        "updatedAt": "2020-07-20T16:03:52.334Z",
+        "createdAt": "2020-07-17T13:15:46.248Z"
+      },
+      {
+        "id": "5f11a482b37775863c3243a3",
+        "title": {
+            "pt_BR": "Titulo3"
+        },
+        "description": {
+            "pt_BR": "Descrição3"
+        },
+        "authorId": "5f05b66d985d5565e1826921",
+        "author": {
+            "id": "5f05b66d985d5565e1826921",
+            "firstName": "Nome",
+            "lastName": "Sobrenome"
+          },
+        "siteId": "5f05b799985d5565e1826922",
+        "previewImageName": "5f05b799985d5565e1826922-484EEEA10A-image.jpg",
+        "previewImageUrls": {
+            "medium":"5f05b799985d5565e1826922-484EEEA10A-image.jpg",
+            "large":"5f05b799985d5565e1826922-484EEEA10A-image.jpg"
+        },
+        "updatedById": "5f05b66d985d5565e1826921",
+        "updatedBy": {
+            "id": "5f05b66d985d5565e1826921",
+            "firstName": "Nome",
+            "lastName": "Sobrenome"
+          },
+        "isPublished": true,
+        "updatedAt": "2020-07-20T16:03:52.334Z",
+        "createdAt": "2020-07-17T13:15:46.248Z"
+      }
+    ]
+  }

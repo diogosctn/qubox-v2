@@ -1,8 +1,5 @@
-import caasy from '@caasy/sdk-js';
-
 import Index, { getStaticProps } from './';
-
-import blogConfig from '../blogConfig';
+import posts from '../posts/allPosts.json'
 
 export default Index;
 export { getStaticProps };
@@ -15,15 +12,10 @@ export { getStaticProps };
  * @returns {Promise<{paths: [], fallback: boolean}>} props for each of the sites
  */
 export const getStaticPaths = async () => {
-    // Usually, it's sufficient to initialize the Caasy SDK once
-    // in the entire app. However, when running "next export",
-    // this configuration is not persisted and therefore it is
-    // necessary to initialize the SDK every time before using it.
-    caasy.init(blogConfig.caasySDKConfig);
     
-    // Fetches the first page of blog posts to use the metadata
-    const data = await caasy.posts.getAll();
-    
+    // Fetches the first page of blog posts to use the metadata    
+    const data = {...posts};
+
     // Calculate how many pages of blog posts there are in total
     const totalPages = Math.ceil((data.totalItems || 0) / data.itemsPerPage);
     

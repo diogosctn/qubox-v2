@@ -7,8 +7,7 @@ import styling from './RichText.module.scss';
 /**
  * Renders a rich text element.
  *
- * Info: rich text is being sanitized by Caasy. Therefore,
- * it is safe to use dangerouslySetInnerHTML without
+ * Info: It is safe to use dangerouslySetInnerHTML without
  * sanitizing it on the client.
  *
  * @param text {string} rich text

@@ -21,12 +21,6 @@ const Nav = () => (
                         <a>Posts</a>
                     </Link>
                 </li>
-                
-                <li>
-                    <Link href='/authors'>
-                        <a>Authors</a>
-                    </Link>
-                </li>
             </ul>
         </div>
     </nav>

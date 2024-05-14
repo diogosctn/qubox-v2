@@ -11,7 +11,7 @@ import styling from './Logo.module.scss';
  */
 const Logo = () => (
     <Link href='/'>
-        <div className={styling.logo}>my<b> | BLOG</b></div>
+        <div className={styling.logo}>Simulador<b> QuBOX</b></div>
     </Link>
 );
 
